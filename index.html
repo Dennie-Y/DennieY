@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/queries.css" />
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+
+        <script defer src="js/script.js"></script>
+
+        <title>Dennie Yuen Portfolio</title>
+    </head>
+    <body>
+        <header class="header sticky">
+            <a href="#" class="main-nav-name">Dennie Yuen</a>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a href="#about" class="main-nav-link">About</a></li>
+                    <li>
+                        <a href="#projects" class="main-nav-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="main-nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section-hero">
+                <div class="hero">
+                    <video class="hero-video" autoplay loop muted>
+                        <source
+                            src="vid/hero/Hero-Video.mp4"
+                            type="video/mp4"
+                        />
+                    </video>
+                </div>
+            </section>
+            <section class="section-about" id="about">
+                <div class="container">
+                    <h2 class="heading-secondary about-heading">About Me</h2>
+                    <div class="about--grid">
+                        <div class="about-description-container">
+                            <p class="about-description">
+                                Hi, I'm Dennie, an indie game developer
+                                currently studying Computing Science at Rutgers
+                                University–New Brunswick. I’ve been passionate
+                                about game development since I was 15, and ever
+                                since, I’ve been exploring every part of the
+                                process. Whether it’s pixel art, 3D modeling, or
+                                gameplay programming, I’m always experimenting
+                                and learning new things to grow as a developer.
+                                I enjoy taking on creative and technical
+                                challenges, and I’m driven by a love for
+                                crafting fun, meaningful experiences.
+                            </p>
+                            <p class="about-description">
+                                I’ve worked on a wide range of projects that
+                                blend different styles, genres, and mechanics.
+                                From reimagining classic games with HD-2D
+                                visuals to designing tactical RPG systems that
+                                bridge open-world exploration with grid-based
+                                combat, I’m always looking for ways to bring
+                                fresh ideas to life. My toolkit includes Unreal
+                                Engine 5, Unity, Blender, and Aseprite, which I
+                                use to bring together both the artistic and
+                                programming sides of my projects. Feel free to
+                                explore my portfolio and see how I bring
+                                creative concepts into playable form.
+                            </p>
+                        </div>
+                        <div class="about-img-box">
+                            <img
+                                class="about-img"
+                                src="img/icons/Profile_HD.png"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-projects" id="projects">
+                <div class="project-container margin-bottom-md">
+                    <div class="container center-text">
+                        <h2 class="heading-secondary projects-heading">
+                            Personal Projects
+                        </h2>
+                        <p class="projects-description">
+                            Click on the projects to learn more
+                        </p>
+                    </div>
+                </div>
+                <div class="container grid grid--3-cols">
+                    <div class="project">
+                        <a
+                            href="https://www.youtube.com/@Shemne"
+                            target="_blank"
+                            class="project-btn"
+                        >
+                            <span class="video-wrapper">
+                                <video
+                                    class="project-video"
+                                    autoplay
+                                    loop
+                                    muted
+                                >
+                                    <source
+                                        src="vid/elden/Project-Video-Elden.mp4"
+                                        type="video/mp4"
+                                    />
+                                </video>
+                            </span>
+                            <div class="project-content">
+                                <div class="project-tags">
+                                    <span class="tag tag--unreal">UE5</span>
+                                    <span class="tag tag--aseprite"
+                                        >Aseprite</span
+                                    >
+                                    <span class="tag tag--blender"
+                                        >Blender</span
+                                    >
+                                    <span class="tag tag--cplusplus">C++</span>
+                                </div>
+                                <h3 class="heading-tertiary project-title">
+                                    Elden Ring Remake
+                                </h3>
+                                <p class="project-update-time">
+                                    Last Updated: Feburary 2025
+                                </p>
+                                <p class="project-description">
+                                    A project reimagining Elden Ring in an HD-2D
+                                    style, featuring a simplified action RPG
+                                    framework with environmental effects to
+                                    replicate the game's atmosphere in pixel
+                                    art.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a
+                            href="https://www.youtube.com/@Shemne"
+                            target="_blank"
+                            class="project-btn"
+                        >
+                            <span class="video-wrapper">
+                                <video
+                                    class="project-video"
+                                    autoplay
+                                    loop
+                                    muted
+                                >
+                                    <source
+                                        src="vid/pokemon/Project-Video-Pokemon.mp4"
+                                        type="video/mp4"
+                                    />
+                                </video>
+                            </span>
+                            <div class="project-content">
+                                <div class="project-tags">
+                                    <span class="tag tag--unreal">UE5</span>
+                                    <span class="tag tag--aseprite"
+                                        >Aseprite</span
+                                    >
+                                    <span class="tag tag--blender"
+                                        >Blender</span
+                                    >
+                                    <span class="tag tag--cplusplus">C++</span>
+                                </div>
+                                <h3 class="heading-tertiary project-title">
+                                    Pokemon Black & White Remake
+                                </h3>
+                                <p class="project-update-time">
+                                    Last Updated: June 2024
+                                </p>
+                                <p class="project-description">
+                                    Recreation of a classic Pokemon game using
+                                    an HD-2D visual style combining pixel art
+                                    and 3D environments.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a
+                            href="https://www.youtube.com/@Shemne"
+                            target="_blank"
+                            class="project-btn"
+                        >
+                            <span class="video-wrapper">
+                                <video
+                                    class="project-video"
+                                    autoplay
+                                    loop
+                                    muted
+                                >
+                                    <source
+                                        src="vid/fabled/Project-Video-Fabled.mp4"
+                                        type="video/mp4"
+                                    />
+                                </video>
+                            </span>
+                            <div class="project-content">
+                                <div class="project-tags">
+                                    <span class="tag tag--unity">Unity</span>
+                                    <span class="tag tag--csharp">C#</span>
+                                </div>
+                                <h3 class="heading-tertiary project-title">
+                                    Fabled
+                                </h3>
+                                <p class="project-update-time">
+                                    Last Updated: August 2023
+                                </p>
+                                <p class="project-description">
+                                    A tactics RPG project featuring multiple
+                                    character classes and dynamic transitions
+                                    between grid-based battles and open-world
+                                    exploration.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a
+                            href="https://www.youtube.com/@Shemne"
+                            target="_blank"
+                            class="project-btn"
+                        >
+                            <span class="video-wrapper">
+                                <video
+                                    class="project-video"
+                                    autoplay
+                                    loop
+                                    muted
+                                >
+                                    <source
+                                        src="vid/stockplunk/Project-Video-Stockplunk.mp4"
+                                        type="video/mp4"
+                                    />
+                                </video>
+                            </span>
+                            <div class="project-content">
+                                <div class="project-tags">
+                                    <span class="tag tag--unity">Unity</span>
+                                    <span class="tag tag--aseprite"
+                                        >Aseprite</span
+                                    >
+                                    <span class="tag tag--csharp">C#</span>
+                                </div>
+                                <h3 class="heading-tertiary project-title">
+                                    StockPlunk
+                                </h3>
+                                <p class="project-update-time">
+                                    Last Updated: July 2023
+                                </p>
+                                <p class="project-description">
+                                    A game created for the GMTK Game Jam 2023
+                                    (Roles Reversed), where players buy and sell
+                                    items to meet customer needs.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="section-contact" id="contact">
+                <div class="container center-text">
+                    <h2 class="heading-secondary contact-heading">
+                        Contact Info
+                    </h2>
+                    <p class="contact-description">
+                        For any inquiries, feel free to reach out to me at
+                        dennieyuen.dev@gmail.com. I aim to respond as quickly as
+                        possible. You can also connect with me on social media:
+                    </p>
+                    <div class="contacts">
+                        <a
+                            class="contact-link"
+                            target="_blank"
+                            href="resume/Dennie Yuen - Resume 2025.pdf"
+                        >
+                            <ion-icon
+                                class="contact-icon"
+                                name="newspaper"
+                            ></ion-icon>
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/dennie-yuen-595444294/"
+                            class="contact-link"
+                            target="_blank"
+                        >
+                            <ion-icon
+                                class="contact-icon"
+                                name="logo-linkedin"
+                            ></ion-icon>
+                        </a>
+                        <a
+                            href="https://www.youtube.com/@Shemne"
+                            target="_blank"
+                            class="contact-link"
+                        >
+                            <ion-icon
+                                class="contact-icon"
+                                name="logo-youtube"
+                            ></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="section-footer">
+            <p class="footer-text">
+                Copyright &copy; <span class="year">2025</span> by Dennie Yuen
+            </p>
+        </footer>
+    </body>
+</html>
