@@ -1,0 +1,91 @@
+/* BELOW 976PX */
+@media (max-width: 61em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .container {
+        padding: 0 6.4rem;
+    }
+
+    .grid--3-cols {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid {
+        column-gap: 4.8rem;
+        row-gap: 4.8rem;
+    }
+
+    .header {
+        padding: 0 3.2rem;
+    }
+}
+
+@media (max-width: 45em) {
+    html {
+        font-size: 50%;
+    }
+
+    .heading-secondary {
+        font-size: 3.6rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .about--grid {
+        grid-template-columns: 1fr;
+        gap: 2.4rem;
+    }
+
+    .main-nav-name:link,
+    .main-nav-name:visited {
+        font-size: 3.2rem;
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 1.6rem;
+    }
+
+    .main-nav-list {
+        gap: 1.6rem;
+    }
+}
+
+@media (max-width: 38em) {
+    .container {
+        padding: 0 9.6rem;
+    }
+
+    .project {
+        height: 48rem;
+    }
+
+    .grid--3-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .section-projects {
+        padding: 1.2rem 0 4.8rem 0;
+    }
+}
+
+@media (max-width: 28em) {
+    .container {
+        padding: 0 4.2rem;
+    }
+
+    .header {
+        padding: 0 1.6rem;
+    }
+
+    .main-nav-name:link,
+    .main-nav-name:visited {
+        font-size: 2.4rem;
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 1.4rem;
+    }
+}
